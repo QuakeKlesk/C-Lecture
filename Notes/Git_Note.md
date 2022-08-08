@@ -20,6 +20,7 @@
 # Lesson_2
 * git branch -d "name branch"     - удаление ветки(Можно через большую D)
 * git log --graph                 - Графическое изображение веток и коммитов
+* .gitignore                      - обязательно строгое название файла для игнорирования. после создания его необходимо добавить и закоммитить. 
 # Lesson_3
 * cd reposetory name               - chenge directory 
 * git clone "link"
