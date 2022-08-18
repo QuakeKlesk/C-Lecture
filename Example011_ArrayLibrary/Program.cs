@@ -1,4 +1,5 @@
-﻿void FillArray(int[] collection)
+﻿// Создание, наполнение, выведение массива. + нахождение заданного числа в массиве.
+void FillArray(int[] collection)
 {
     int length = collection.Length;
     int index = 0;
