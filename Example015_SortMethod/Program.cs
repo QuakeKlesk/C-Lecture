@@ -1,5 +1,6 @@
 ﻿// Сортировка массива по возрастанию 
-int[] arr = {1, 5, 4, 3, 7, 3, 9, 4, 3, 2, 5, 4, 6, 3, 6, 18};
+
+int[] arr = {1, 5, 4, 3, 7, 3, 9, 4, 34, 25, 9827, 8734, 092374, 48,3498, 8974, 298,254,36740,7434,3, 2, 5, 4, 6, 3, 6, 18};
 
 void PrintArray(int[] array)
 {
@@ -12,7 +13,7 @@ void PrintArray(int[] array)
 }
 void SelectionSort(int[] array)
 {
-    for( int i=0; i<array.Length -1 ; i++)
+    for( int i=0; i<array.Length; i++)
     {
         int minPosition = i;
         for(int j = i+1; j<array.Length; j++)

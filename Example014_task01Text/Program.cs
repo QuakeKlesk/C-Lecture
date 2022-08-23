@@ -23,17 +23,18 @@ string letterChanger(string text, char oldValue, char newValue)
 
     return result;
 }
+
 string newText = letterChanger(text, ' ', '|');
 Console.WriteLine(newText);
 Console.WriteLine();
 newText = letterChanger(newText, 'к', 'К');
-Console.WriteLine(newText); */
+Console.WriteLine(newText); 
 
-// Счетчик символов
+/* // Счетчик символов
 
 int letterCounter(string text)
 {
     int length = text.Length;
     return length;
 }
-Console.WriteLine(letterCounter(text));
+Console.WriteLine(letterCounter(text));*/ 
